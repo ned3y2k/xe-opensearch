@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <grants />
+    <permissions />
+    <actions>
+        <action name="opensearch_xml" type="view" />
+        <action name="dispOpensearchAdminSetting" type="view" index="true" admin_index="true" menu_name="opensearchAdmin" menu_index="true" />
+    </actions>
+	<menus>
+		<menu name="opensearchAdmin">
+			<title xml:lang="en">setting opensearch</title>
+			<title xml:lang="ko">opensearch 설정</title>
+		</menu>
+	</menus>
+</module>

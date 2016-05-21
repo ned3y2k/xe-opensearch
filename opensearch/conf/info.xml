@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+    <title xml:lang="ko">opensearch</title>
+    <title xml:lang="en">opensearch</title>
+    <description xml:lang="ko">웹브라우저 검색 도구에 추가/사용 가능하도록 지원하는 모듈.</description>
+    <description xml:lang="en">웹브라우저 검색 도구에 추가/사용 가능하도록 지원하는 모듈.</description>
+    <version>1.0</version>
+    <date>2013-11-27</date>
+    <category>system</category>
+
+    <author email_address="ned3y2k@tistory.com" link="http://ned3y2k.co.kr/">
+        <name xml:lang="ko">ned3y2k</name>
+        <name xml:lang="en">ned3y2k</name>
+    </author>
+</module>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lang>
+    <item name="provider_description_format">
+        <value xml:lang="ko"><![CDATA[%s 검색 제공자]]></value>
+        <value xml:lang="en"><![CDATA[%s Provider]]></value>
+    </item>
+</lang>

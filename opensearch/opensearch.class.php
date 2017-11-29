@@ -28,7 +28,7 @@ class opensearch extends ModuleObject {
 		if(!$this->getModuleModel()->getTrigger('display', 'opensearch', 'controller', 'triggerBeforeDisplay', 'before'))
 			$this->getModuleController()->insertTrigger('display', 'opensearch', 'controller', 'triggerBeforeDisplay', 'before');
 
-		return new Object(0, 'success_updated');
+		return $this->createObject(0, 'success_updated');
 	}
 
 	function recompileCache()
@@ -51,4 +51,12 @@ class opensearch extends ModuleObject {
 
 	/** @return Context */
 	protected function getContext() { return Context::getInstance(); }
+
+    protected function createObject($error = 0, $message = 'success') {
+        if(class_exists("BaseObject")) {
+            return new BaseObject($error, $message);
+        } else {
+            return new Object($error, $message);
+        }
+    }
 }
